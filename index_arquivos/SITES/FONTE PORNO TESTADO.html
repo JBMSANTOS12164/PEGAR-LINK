@@ -11,7 +11,14 @@
 img {
     max-width: 100%;
 }
-</style>
+</style><script language=javascript>
+senha = '0398';
+senhadig = prompt("Digite a senha","")
+if (senha != senhadig){
+alert('Acesso negado!');
+top.location.href='erro.htm';
+}
+</script>
 <!---------------------------------
 <body bgcolor="#000000"></body>
 <FONT COLOR="#ffffff">&emsp;
@@ -59,7 +66,34 @@ body {margin:0;}
   margin-top: 30px;
   height: 500px; /* Used in this example to enable scrolling */
 }
-</style></head><body><div class="navbar"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="PESQUISA NESSA PÁGINA" title="PESQUISA NESSA PÁGINA"></div><div class="main"><!DOCTYPE html><html><head>
+</style></head><body>
+<BR/><BR/><BR/><CENTER>
+<!---------------------------------------------------------------------------------->
+<b id='piscando' style="transition-duration:0.5s">
+<h1>LEIA COM ATENÇÃO.</h1>
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script></CENTER>
+<!-----------------------------------------------
+<p><font color="#FFFFFF">Contém conteúdo aduldo,</font> <font color="#fcf003"><b>proibido para menores de 18 anos.</b></font></p>
+<!---------------------------------------------------------------------------------->
+<center><p><font color="#000000">Contém conteúdo aduldo,</font> <font color="RED"><b>proibido para menores de 18 anos, de acordo com a <a href="https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241E" target="_blank">lei Nº 8.069, DE 13 DE JULHO DE 1990.</a></b></font></p></center>
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<hr class="new4">
+<hr class="new5">
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<div class="navbar"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="PESQUISA NESSA PÁGINA" title="PESQUISA NESSA PÁGINA"></div><div class="main"><!DOCTYPE html><html><head>
 <meta name="viewport" content="width=device-width, initial-scale=1"><style>
 * {
   box-sizing: border-box;
